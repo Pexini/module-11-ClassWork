@@ -48,10 +48,10 @@ public class Address implements Comparable<Address> {
                 if (comparingFlat == 0) {
                     return this.index - o.index;
                 } else {
-                    return comparingBuild;
+                    return comparingFlat;
                 }
             } else {
-                return commparingStreet;
+                return comparingBuild;
             }
         }else {
             return commparingStreet;
